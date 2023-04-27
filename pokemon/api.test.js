@@ -43,7 +43,5 @@ describe('fetchPokemon', () => {
         //just checking if the error exists
         done();
       });
-  });
-  
+  }); 
 });
-

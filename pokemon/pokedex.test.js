@@ -36,16 +36,3 @@ describe('Pokedex', () => {
       });
   });
 });
-
-describe('Pokedex', () => {
-  it('Catch pikachu to the pokedex', () => {
-    const pokemonFake = {
-      getName: () => 'pikachu'
-    }
-    const pokedex = new Pokedex();
-    pokedex.catch(pokemonFake)
-      
-    expect(pokemonFake.getName()).toEqual('pikachu');
-       
-      });
-  });
